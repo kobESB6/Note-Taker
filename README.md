@@ -5,29 +5,35 @@ Description
 The Note Taker application is a simple web-based tool that allows users to write, save, and delete notes. It uses an Express.js back end to handle storing and retrieving notes from a JSON file. The application’s front end is pre-built, and this project focuses on building the back end and deploying the application.
 
 
-Table of Contents
+## Table of Contents
+
 Description
-Table of Contents
-Installation
-Usage
-API Routes
-Screenshots
-Deployment
-License
 
 Installation
+
+Usage
+
+API Routes
+
+Screenshots
+
+Deployment
+
+License
+
+## Installation
 To get started with the Note Taker application, follow these steps:
 
 Clone the Repository
 Clone the starter code from the repository git clone:<https://github.com/kobESB6/Note-Taker>
 
-- Dependencies:
+#### Dependencies:
 
 cd note-taker
 
 npm install
 
-- Run the application
+#### Run the application
 
 node server.js
 
@@ -38,7 +44,7 @@ This application will be deployed to Render.com
 Usage 
 Once the application is deployed, you can use it to write, save, and delete notes.
 
-Features
+## Features
 - Write and save notes
 - Delete notes
 
@@ -50,9 +56,14 @@ The application uses the following API routes:
 - DELETE /api/notes/:id: Delete a note by ID
 
 
-## Deployment 
+## Deployment Links & Screenshots
 
 This application is deployed to Render.com you can acess application by clicking on the following link:
+
+![Screenshot](./images/homescreen12024-10-21%20at%203.53.56 PM.png)
+![Screenshot](./images/2Note%202024-10-21%20at%206.19.09 PM.png)
+![Screenshot](./images/3Note%202024-10-21%20at%206.18.26 PM.png)
+![Screenshot](./images/4%20Saved%202024-10-21%20at%206.27.23 PM.png)
 
 Live Application on Render:
  <https://note-taker-so4s.onrender.com>
