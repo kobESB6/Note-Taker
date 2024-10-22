@@ -1,9 +1,8 @@
 # Note-Taker 11
 
 
-Description
+## Description
 The Note Taker application is a simple web-based tool that allows users to write, save, and delete notes. It uses an Express.js back end to handle storing and retrieving notes from a JSON file. The application’s front end is pre-built, and this project focuses on building the back end and deploying the application.
-
 
 ## Table of Contents
 
@@ -20,6 +19,8 @@ Screenshots
 Deployment
 
 License
+
+
 
 ## Installation
 To get started with the Note Taker application, follow these steps:
@@ -54,6 +55,8 @@ The application uses the following API routes:
 - GET /api/notes: Retrieve all notes
 - POST /api/notes: Create a new note
 - DELETE /api/notes/:id: Delete a note by ID
+## Resource 
+Tuotoring session
 
 
 ## Deployment Links & Screenshots
