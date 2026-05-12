@@ -18,7 +18,7 @@ router.get('/notes', (req, res) => {
 router.post('/notes', (req, res) => {
     storedNotes
     .addNotes(req.body)
-    .then((note) => [res.json(note)])
+    .then((note) => res.json(note))
     .catch((err) => res.status(500).json(err));
 });
 //DELETE route for deleting notes

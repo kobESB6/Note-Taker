@@ -17,15 +17,15 @@ class Notes {
   getNotes() {
     return this.read().then((notes) => {
       let parsedNotes;
-      return [].concat(JSON.parse(notes));
-    });
+
     try {
       parsedNotes = [].concat(JSON.parse(notes));
     } catch (err) {
       parsedNotes = [];
     }
     return parsedNotes;
-  }
+  });
+}
   addNotes(note) {
     const { title, text } = note;
     if (!title || !text) {
